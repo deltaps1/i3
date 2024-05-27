@@ -195,11 +195,14 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-
 # CUSTOM BINDSYMS!
 bindsym $mod+o focus left
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+
+# Simple nav
+bindsym $mod+Control+ae workspace next
+bindsym $mod+Control+j workspace prev
 
 # Control Keyboard backlight
 bindsym $mod+Control+1 exec brightnessctl --device="tpacpi::kbd_backlight" set 0
