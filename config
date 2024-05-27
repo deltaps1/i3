@@ -204,6 +204,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 bindsym $mod+Control+ae workspace next
 bindsym $mod+Control+j workspace prev
 
+# New window (QUICK!)
+bindsym $mod+n exec --no-startup-id ~/.config/i3/new_window
+
 # Control Keyboard backlight
 bindsym $mod+Control+1 exec brightnessctl --device="tpacpi::kbd_backlight" set 0
 bindsym $mod+Control+2 exec brightnessctl --device="tpacpi::kbd_backlight" set 1
