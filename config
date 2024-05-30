@@ -204,6 +204,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 bindsym $mod+Control+k workspace next
 bindsym $mod+Control+j workspace prev
 
+# Firefox
+bindsym $mod+Shift+f exec --no-startup-id firefox
+
 # New window (QUICK!)
 bindsym $mod+n exec --no-startup-id ~/.config/i3/new_window
 
