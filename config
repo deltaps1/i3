@@ -201,7 +201,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
 # Simple nav
-bindsym $mod+Control+ae workspace next
+bindsym $mod+Control+k workspace next
 bindsym $mod+Control+j workspace prev
 
 # New window (QUICK!)
