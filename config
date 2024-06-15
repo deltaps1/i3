@@ -35,7 +35,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Picom
-exec --no-startup-id picom -b
+exec_always --no-startup-id picom -b
 
 # Background
 exec_always --no-startup-id /home/deltapsi/.fehbg
